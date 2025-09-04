@@ -2,19 +2,16 @@
 
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
-
+@custom-variant dark (&:where(.dark, .dark *)); 
 
 *{
-  font-family: "Outfit", sans-serif;
+   font-family: "Outfit", sans-serif;
 }
-
-@theme{
+@theme {
   --color-primary: #E6CCFF;
 }
-
-::-webkit-scrollbar{
-  display: none;
+::-webkit-scrollbar {
+    display: none;
 }
 
 .reset-tw :not(pre):not(code){
